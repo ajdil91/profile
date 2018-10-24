@@ -1,0 +1,93 @@
+/*Fonts and font colors*/
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #DAFFEF;
+}
+
+h1, h2, body {
+  color: #5D737E;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Content*/
+.btn-green {
+  color: white;
+  background-color: #64B6AC;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  opacity: 0.8;
+}
+
+.media-icon {
+  text-decoration: none;
+  font-weight: 580;
+  color: #64B6AC;
+}
+
+.media-list {
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-around
+}
+
+/*Box Formatting*/
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+  background-color: #FCFFFD;
+  padding: 40px 50px;
+  margin: 50px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px #EAF7EE
+}
+
+.travel-photo {
+  border-radius: 10px;
+  margin: 20px;
+}
